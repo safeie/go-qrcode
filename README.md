@@ -10,13 +10,13 @@ Each QR Code contains error recovery information to aid reading damaged or obscu
 
 ## Install
 
-    go get -u github.com/skip2/go-qrcode/...
+    go get -u github.com/safeie/go-qrcode/...
 
 A command-line tool `qrcode` will be built into `$GOPATH/bin/`.
 
 ## Usage
 
-    import qrcode "github.com/skip2/go-qrcode"
+    import qrcode "github.com/safeie/go-qrcode"
 
 - **Create a PNG image:**
 
@@ -41,7 +41,7 @@ alphanumeric characters, 7,089 numeric digits, or a combination of these.
 
 ## Documentation
 
-[![godoc](https://godoc.org/github.com/skip2/go-qrcode?status.png)](https://godoc.org/github.com/skip2/go-qrcode)
+[![godoc](https://godoc.org/github.com/safeie/go-qrcode?status.png)](https://godoc.org/github.com/safeie/go-qrcode)
 
 ## Demoapp
 
@@ -53,7 +53,7 @@ A command-line tool `qrcode` will be built into `$GOPATH/bin/`.
 
 ```
 qrcode -- QR Code encoder in Go
-https://github.com/skip2/go-qrcode
+https://github.com/safeie/go-qrcode
 
 Flags:
   -o string
@@ -70,7 +70,7 @@ Usage:
 
   2. Save to file if "display" not available:
 
-       qrcode "homepage: https://github.com/skip2/go-qrcode" > out.png
+       qrcode "homepage: https://github.com/safeie/go-qrcode" > out.png
 ```
 
 ## Links
